@@ -5,7 +5,7 @@ public class Questao10{
         int numero1, numero2, soma;
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Qual o primeiro número"?);
+        System.out.println("Qual o primeiro número");
         numero1 = teclado.nextInt();
         System.out.println("Qual o segundo número?");
         numero2 = teclado.nextInt();

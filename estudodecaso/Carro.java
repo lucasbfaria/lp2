@@ -66,10 +66,10 @@ public class Carro{
         // Baixo = 1
         if (direcao == 0){
             this.marcha++;
-            System.out.println("O carro subiu uma marcha")
+            System.out.println("O carro subiu uma marcha");
         } else if(direcao == 1){
             this.marcha--;
-            System.out.println("O carro desceu uma marcha")
+            System.out.println("O carro desceu uma marcha");
         }
         System.out.println("Marcha atual: " + this.marcha);
     }

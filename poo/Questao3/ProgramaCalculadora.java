@@ -19,7 +19,7 @@ public class ProgramaCalculadora {
         System.out.println("4 - Divisão");
         int opcao = teclado.nextInt();
 
-        double resultado;
+        double resultado = 0;
 
         switch (opcao){
             case 1:
