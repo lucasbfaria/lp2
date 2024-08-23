@@ -8,9 +8,9 @@ public class Semestre{
     
     public Semestre(Avaliacao avaliacao1, Avaliacao avaliacao2, Avaliacao avaliacao3, Avaliacao avaliacao4){
         this.avaliacao1 = avaliacao1;
-        this.avaliacao1 = avaliacao2;
-        this.avaliacao1 = avaliacao3;
-        this.avaliacao1 = avaliacao4;
+        this.avaliacao2 = avaliacao2;
+        this.avaliacao3 = avaliacao3;
+        this.avaliacao4 = avaliacao4;
     }
 
     public void imprimirMedia() throws Excecao{
