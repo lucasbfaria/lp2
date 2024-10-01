@@ -1,0 +1,17 @@
+1. O que é uma exceção em Java?
+Quando é executado um código em java, há a possibilidade de dar um erro, ou seja, encontrar uma exceção. Essas exceções podem ser tratadas para que esse erro apareça de uma forma mais "amigável" para o usuário.
+
+2. Qual a diferença entre exceções verificadas (checked) e não verificadas (unchecked)?
+As exceções verificadas são exceções que o desenvolvedor precisam tratar, são usadas em situações que podem ser previstas. Por outro lado, as exceções não verificadas não precisam ser tratadas pelo desenvolvedor, o copilador não verifica essas exceções no bloco try-catch.
+
+3. Explique a estrutura try-catch em Java.
+A estrutura try-catch é usada para tratar erros previstos, de forma que o código seja mantido em execução, mesmo após encontrar o erro
+
+4. Qual é a finalidade do bloco finally?
+O bloco finally é usado para executar um código após o try-catch, independente de uma exceção ter sido encontrada
+
+5. Como você pode criar sua própria exceção em Java?
+Para criar um exceção personalizada, precisa criar uma classe que extende a classe Exception, lançar a classe com throws em um método, e por fim precisa encontrar essa exceção com o bloco try-catch.
+
+6. Quais são as boas práticas no uso de exceções em Java?
+Evitar usar exceções quando o erro puder ser resolvido normalmente, utilizar o bloco finally para garantir que um codigo seja executado, criar as próprias exceções, mandar as exceções para uma tabela de log.
